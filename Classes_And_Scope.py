@@ -63,7 +63,8 @@ print(monster.health)
 monster.health += 20
 print(monster.health)
 
-update_health(20)       # Even inside a local scope of an function can update anything inside an object
+# Even inside a local scope of an function can update anything inside an object
+update_health(20)       
 print(monster.health)
 # Can use the object to call the function
 monster.update_energy(20)

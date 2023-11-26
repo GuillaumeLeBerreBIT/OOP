@@ -106,4 +106,3 @@ print(monster1)
 # __init__ is called when the object is created -- > IMPORTANT
 # __len__ called when object is passed into len()
 # __abs__ called when object is called into abs()
-# 

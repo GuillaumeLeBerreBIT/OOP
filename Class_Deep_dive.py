@@ -45,7 +45,8 @@ print(test_c.add_function(3,4)) # Here can the attribute from outside the functi
 class Monster():
     
     def __init__(self, func):
-        self.func = func    # Turn the parameter into an attribute
+        # Turn the parameter into an attribute
+        self.func = func    
 
 # Create another class, called Attacks, that has 4 methods:
 # Bite, strike, slash, kick (each method should print some text)

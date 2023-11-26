@@ -56,5 +56,5 @@ print(shark.speed)
 
 
 # MRO -- > Method of Resolution Order == What order the PARENT init methods are being called
-#print(Shark.mro())  # [<class '__main__.Shark'>, <class '__main__.Monster'>, <class '__main__.Fish'>, <class 'object'>] >> Last object inbuild do ot worry
+#print(Shark.mro())  # [<class '__main__.Shark'>, <class '__main__.Monster'>, <class '__main__.Fish'>, <class 'object'>] >> Last object inbuild do not worry
 # Left most item is always the first being called && Next 2 classeds is the order being given in class Shark() arguments ^^^^ 

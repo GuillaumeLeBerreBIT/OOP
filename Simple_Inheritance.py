@@ -25,7 +25,7 @@ class Monster:
         print(f'The monster has speed of {speed}')
         
 # If u want inherit from another class Add as argument in class
-# To call Attributes need to call the __init__() FIRST!!
+# To call Attributes need to call the __init__() FIRST!
 class Shark(Monster):   # Gets all Attributes and Methods from Monster
     
     def __init__(self, speed, health, energy):  # Calling init method & parsing the arguments we want to set >> speed, health and energy

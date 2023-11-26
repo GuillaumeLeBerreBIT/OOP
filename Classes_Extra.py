@@ -37,7 +37,7 @@ for att, val in new_attributes:
 
 print(vars(monster))
 
-# Doc
+# Docstring
 print(monster.__doc__)  # This prints u-out the docstring of the object, can be usefull for very long texts on a class. Working on big projects 
 help(monster)   # Can see the attributes, Docstring ad methods
 #help(str)  # Can use it on functions to print out
